@@ -1,0 +1,5 @@
+# Directory wordlist for FuzzForge
+admin
+api
+login
+wp-admin

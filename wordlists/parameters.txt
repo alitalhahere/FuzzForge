@@ -1,0 +1,4 @@
+# Parameter wordlist for FuzzForge
+id
+user
+page
