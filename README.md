@@ -30,25 +30,31 @@ pip install -r requirements.txt
 ```bash
 # Directory fuzzing
 python fuzzforge.py http://example.com/FUZZ --dirs -c 50
-
+```
+```bash
 # Parameter fuzzing
 python fuzzforge.py http://example.com/page.php?FUZZ=test --params
-
+```
+```bash
 # SQL injection testing
 python fuzzforge.py http://example.com/page.php?id=FUZZ --sqli
-
+```
+```bash
 # XSS testing
 python fuzzforge.py http://example.com/search?q=FUZZ --xss
-
+```
+```bash
 # Custom wordlist
 python fuzzforge.py http://example.com/FUZZ -w wordlists/custom.txt
-
+```
+```bash
 # POST method
 python fuzzforge.py http://example.com/login --dirs -m POST -d "username=FUZZ&password=test"
-
+```
+```bash
 # Generate HTML report
 python fuzzforge.py http://example.com/FUZZ --dirs --html
 ```
 ## 👤 Author
 
-Ali Talha – CEH | 
+Ali Talha – [LinkedIn](https://www.linkedin.com/in/imalitalha)
